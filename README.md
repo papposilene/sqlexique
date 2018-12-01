@@ -13,7 +13,7 @@ Pour installer ce script, il vous faut :
 Suivez ces 5 étapes :
 1. Récupérez la dernière version de la base de données sur le site [Lexique](http://lexique.org) au format Excel.
 2. Convertissez ledit fichier au format CSV.
-3. Lancez [Composer](https://getcomposer.org/) pour installer les dépendances `league/csv`, `illuminate/database`, `illuminate/events` et `illuminate/container`.
+3. Lancez [Composer](https://getcomposer.org/) pour installer les dépendances avec le fichier `composer.json`.
 4. Créez une base de données puis un fichier sqlCredentials.php (avec les variables suivantes : `$dbAppHost`, `$dbAppName`, `$dbAppLogin`, `$dbAppPassword`.
 5. Le script copiera le lexique dans votre base de données pour vos projets.
 
