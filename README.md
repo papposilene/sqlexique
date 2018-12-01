@@ -15,6 +15,7 @@ Suivez ces 5 étapes :
 2. Convertissez ledit fichier au format CSV.
 3. Lancez [Composer](https://getcomposer.org/) pour installer les dépendances `league/csv`, `illuminate/database`, `illuminate/events` et `illuminate/container`.
 4. Créez une base de données puis un fichier sqlCredentials.php (avec les variables suivantes : `$dbAppHost`, `$dbAppName`, `$dbAppLogin`, `$dbAppPassword`.
+5. Le script copiera le lexique dans votre base de données pour vos projets.
 
 ## Licence
 
