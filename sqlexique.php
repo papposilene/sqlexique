@@ -1,13 +1,10 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 use League\Csv\Reader;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;
 
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 require './sqlCredentials.cfg.php';
 
 if (!ini_get("auto_detect_line_endings")) {
@@ -31,7 +28,7 @@ $capsule->setEventDispatcher(new Dispatcher(new Container));
 $capsule->setAsGlobal();
 $capsule->bootEloquent();
 
-$csvr = Reader::createFromPath('./lexique382.csv', 'r');
+$csvr = Reader::createFromPath('./lexique.csv', 'r');
 $csvr->setDelimiter(';');
 $csvr->setHeaderOffset(0);
 $records = $csvr->getRecords();
