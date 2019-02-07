@@ -22,4 +22,4 @@ Suivez ces 5 étapes :
 Le code source de sqlexique est publié sous licence MIT.
 La base de données [Lexique](http://lexique.org) est sous [licence publique générale](http://lexique.org/public/license_lexique.htm) (inspirée de GNUv2).
 
-© Philippe-Alexandre Pierre - 2018
+© 2018 Philippe-Alexandre Pierre
